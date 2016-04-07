@@ -1,5 +1,5 @@
-#ifndef EXPERIMENTAL_USERS_LYNNASIIMWE_KERNEL_DRIVERS_SBULL_SBULL_H_
-#define EXPERIMENTAL_USERS_LYNNASIIMWE_KERNEL_DRIVERS_SBULL_SBULL_H_
+#ifndef KERNEL_DRIVERS_SBULL_SBULL_H_
+#define KERNEL_DRIVERS_SBULL_SBULL_H_
 #include <linux/ioctl.h>
 
 /* Multiqueue only works on 2.4 */
@@ -53,4 +53,4 @@ typedef struct Sbull_Dev {
    int busy;
 #endif
 }              Sbull_Dev;
-#endif  // EXPERIMENTAL_USERS_LYNNASIIMWE_KERNEL_DRIVERS_SBULL_SBULL_H_
+#endif  // KERNEL_DRIVERS_SBULL_SBULL_H_
